@@ -1,0 +1,38 @@
+*{
+    scroll-behavior: smooth;
+}
+.carousel-item{
+    height: 500px;
+}
+.carousel-item img {
+  height: 100%;
+  object-fit:scale-down;
+  mix-blend-mode:luminosity;
+}
+.carousel{
+    background-color: black;
+}
+.carousel-item img:hover{
+    mix-blend-mode: normal;
+}
+.card-hover{
+    position: relative;
+    overflow: hidden;
+}
+.card-overlay{
+    position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  transition:0.5s
+}
+.card-hover:hover .card-overlay{
+    opacity: 1;
+}
