@@ -1,6 +1,10 @@
 *{
     scroll-behavior: smooth;
 }
+body{
+    margin: 0;
+    font-family:sans-serif;
+}
 .carousel-item{
     height: 500px;
 }
