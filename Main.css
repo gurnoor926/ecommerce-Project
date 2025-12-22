@@ -40,3 +40,8 @@ body{
 .card-hover:hover .card-overlay{
     opacity: 1;
 }
+.product-card-img{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
