@@ -1,5 +1,8 @@
 *{
     scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scroll-snap-type: proximity;
+    scrollbar-color: gray lightgray;
 }
 body{
     margin: 0;
