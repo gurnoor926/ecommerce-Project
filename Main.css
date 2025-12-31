@@ -8,18 +8,18 @@ body{
     margin: 0;
     font-family:sans-serif;
 }
-.carousel-item{
+.index-carousel-item{
     height: 500px;
 }
-.carousel-item img {
+.index-carousel-item img {
   height: 100%;
   object-fit:scale-down;
   mix-blend-mode:luminosity;
 }
-.carousel{
+.index-carousel{
     background-color: black;
 }
-.carousel-item img:hover{
+.index-carousel-item img:hover{
     mix-blend-mode: normal;
 }
 .card-hover{
